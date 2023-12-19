@@ -1,4 +1,3 @@
-
 class ChatModel {
   String? system;
   String? message;
@@ -15,9 +14,9 @@ class ChatModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> _data = <String, dynamic>{};
-    _data["system"] = system;
-    _data["message"] = message;
-    return _data;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data["system"] = system;
+    data["message"] = message;
+    return data;
   }
 }

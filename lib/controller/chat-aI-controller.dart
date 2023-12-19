@@ -1,15 +1,12 @@
 import 'dart:convert';
 
-import 'package:bard_flutter/ChatModel.dart';
-import 'package:bard_flutter/data.dart';
+import 'package:bard_flutter/model/chat_model.dart';
+import 'package:bard_flutter/utilities/utilities.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 class ChatController extends GetxController {
-  RxList historyList = RxList<ChatModel>([
-    ChatModel(system: "user", message: "What can you do for me"),
-    ChatModel(system: "bard", message: "What can you do for me"),
-  ]);
+  RxList historyList = RxList<ChatModel>([]);
 
   RxBool isLoading = false.obs;
   void sendPrompt(String prompt) async {

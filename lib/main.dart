@@ -1,4 +1,5 @@
-import 'package:bard_flutter/MainScreen.dart';
+import 'package:bard_flutter/screen/main_screen.dart';
+import 'package:bard_flutter/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -13,18 +14,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Bard Flutter',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primaryColor: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
-        textTheme: GoogleFonts.montserratTextTheme(
+        textTheme: GoogleFonts.latoTextTheme(
           Theme.of(context).textTheme,
         ),
         primaryTextTheme:
-        GoogleFonts.montserratTextTheme(Theme.of(context).textTheme),
+        GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
       ),
-      home: const MainScreen(),
+      home: const SplashScreen(),
     );
   }
 }
