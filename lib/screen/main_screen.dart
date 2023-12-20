@@ -12,10 +12,8 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-
   ChatController controller = Get.put(ChatController());
   TextEditingController textField = TextEditingController();
-
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +25,7 @@ class _MainScreenState extends State<MainScreen> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         title: const Text(
-          "Flutter AI Chat Bot",
+          "ByteBoard",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -37,7 +35,8 @@ class _MainScreenState extends State<MainScreen> {
           children: [
             ChatTiles(controller: controller, width: width),
             const SizedBox(height: 10),
-            InputField(width: width, textField: textField, controller: controller),
+            InputField(
+                width: width, textField: textField, controller: controller),
             const SizedBox(height: 10),
           ],
         ),
@@ -45,7 +44,3 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
-
-
-
-

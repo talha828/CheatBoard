@@ -1,72 +1,33 @@
+# ByteBoard App
 
-# 📙 Google Bard AI in Flutter 
-I have integrated BARDAI in flutter and i have maked a app with google bard ai 
-
-    
-
-
-
-
-## Demo/Tutorial video 
-
-Youtube channel https://www.youtube.com/watch?v=RMd4AwQQhWs&t=17s
-
-
-## Screenshots
-
-![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJkfu3lwnWcLnxHgZp_R4m_1M5Y_2Ifr9BFlVqqXPJ_cTTO7xfst5zksU0djus_qiBOE_GqVj8rr1ij90B_XqTsx817W3l64fC8cNyuie1zXI1A3taxZGx8Gf6jbHza77FbNrvq59njxGCDXwp5cDL-drzWP4JOTpSjFbrO6qTK7R0SmIcLosT-kS-REZB/s1280/maxresdefault.jpg)
-
-
-## Tech Stack
-
-**Client:** Flutter,Dart and Getx
-
-**Backend** Google bard API 
-
-
+ByteBoard is a Flutter application designed to streamline your document analysis experience through its powerful AI chat feature. This app leverages the Bard API to analyze PDFs and provide insightful answers to your questions.
 
 ## Features
 
-- Send prompt to Google bard AI
-- Get Reponse
-## Colors Reference Are Used In this projects 
+1. **AI Chat:** ByteBoard incorporates advanced AI capabilities to facilitate dynamic and interactive conversations. Simply ask questions related to your PDF documents, and ByteBoard will provide accurate analyses and answers.
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Background Color | ![#D1D9E6](https://via.placeholder.com/10/FFFFFF?text=+) #D1D9E6 |
-| Font Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Primary Color | ![#246AFE](https://via.placeholder.com/10/0057FF?text=+) #246AFE |
-| Lebel Color | ![#8C8C8C](https://via.placeholder.com/10/6B6B6B?text=+) #8C8C8C |
-| Secondry Color | ![#FFFFFF](https://via.placeholder.com/10/00C236?text=+) #FFFFFF |
+2. **PDF Analysis:** The app seamlessly integrates with the Bard API to analyze PDF files. Gain valuable insights and information from your documents with ease.
 
+## How to Collaborate
 
-## Run Locally
+We welcome collaboration to enhance ByteBoard and make it even more powerful. Here's how you can contribute:
 
-Clone the project
+1. **Bug Reports:** If you encounter any issues or unexpected behavior, please submit a detailed bug report in the [Issues](link-to-issues) section. Include information about your device, OS version, and steps to reproduce the problem.
 
-```bash
-  git clone https://github.com/MrNitishroy/Bard-AI-With-FLUTTER
-```
+2. **Feature Requests:** Suggest new features or improvements that you believe would enhance the app. We value your input and are open to making ByteBoard more versatile.
 
-Open project in the vs code
+3. **Pull Requests:** If you have coding skills and want to contribute directly, fork the repository, make your changes, and submit a pull request. Ensure that your code follows the project's guidelines.
 
-```bash
-  flutter pub get
-```
+## Getting Started
 
-run app 
+To get started with ByteBoard, follow these steps:
 
-```bash
-  flutter run
-```
+1. Clone the repository: `git clone https://github.com/your-username/ByteBoard.git`
+2. Install dependencies: `flutter pub get`
+3. Run the app: `flutter run`
 
+## Community Support
 
-![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE_qdrf8I00vWN9KutyzH958kz3_OEKYi7wItPIz6gqavE78nduSG-2k7TFoKeeA4NYP8e1kOiO_73ZWEGC5KqdOwBdWa-p3aI62OgUNMYM2cKks5ks_rxPAcbd6aZM5W7ua9t_ffkti0Ik-_7BR2JSWaJNFK1ZeXCOK8yb0feVy4Dlf624KwaGZR9auOs/s2604/Frame%203.png)
+Join our community to discuss ideas, share experiences, and get assistance. Visit [Community Forum](link-to-forum).
 
-
-## Authors
-
-- [@MrNitishRoy](https://www.github.com/MrNitishroy)
-- [@YoutubeChannel](https://www.youtube.com/channel/UCCbgU4H2YQVZUqQmhZXKpfQ)
-- [@Linkdin](https://www.linkedin.com/in/mrnitishkumar/)
-
+Let's collaborate and make ByteBoard a robust tool for PDF analysis and AI-driven conversations!

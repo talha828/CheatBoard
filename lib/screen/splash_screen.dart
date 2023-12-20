@@ -13,17 +13,22 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
-    Timer(const Duration(seconds: 2),()=> Get.to(const MainScreen()));
+    Timer(const Duration(seconds: 2), () => Get.to(const MainScreen()));
     super.initState();
   }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Image.asset(Assets.assetsBot,scale: 4,),
+    return SafeArea(
+      child: Scaffold(
+        body: Center(
+          child: Image.asset(
+            Assets.assetsBot,
+            scale: 4,
+          ),
+        ),
       ),
     );
   }

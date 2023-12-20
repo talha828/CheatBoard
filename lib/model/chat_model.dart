@@ -5,10 +5,10 @@ class ChatModel {
   ChatModel({this.system, this.message});
 
   ChatModel.fromJson(Map<String, dynamic> json) {
-    if(json["system"] is String) {
+    if (json["system"] is String) {
       system = json["system"];
     }
-    if(json["message"] is String) {
+    if (json["message"] is String) {
       message = json["message"];
     }
   }

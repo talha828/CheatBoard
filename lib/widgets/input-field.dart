@@ -50,7 +50,7 @@ class InputField extends StatelessWidget {
             ),
           ),
           Obx(
-                () => controller.isLoading.value
+            () => controller.isLoading.value
                 ? const LoadingIndicator()
                 : const AttachmentButton(),
           ),

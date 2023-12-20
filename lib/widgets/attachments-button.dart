@@ -1,4 +1,3 @@
-
 import 'package:bard_flutter/utilities/utilities.dart';
 import 'package:flutter/material.dart';
 
@@ -13,8 +12,7 @@ class AttachmentButton extends StatelessWidget {
       onTap: () => Utilities.pickAndSaveFilePath(),
       child: const Padding(
         padding: EdgeInsets.all(8.0),
-        child:
-        Icon(Icons.attach_file, color: Colors.blue),
+        child: Icon(Icons.attach_file, color: Colors.blue),
       ),
     );
   }

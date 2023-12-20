@@ -4,9 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,7 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Bard Flutter',
       theme: ThemeData(
         primaryColor: Colors.blue,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
@@ -23,7 +21,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ),
         primaryTextTheme:
-        GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
+            GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
       ),
       home: const SplashScreen(),
     );

@@ -19,34 +19,34 @@ class ChatTiles extends StatelessWidget {
       child: ListView(
         children: [
           Obx(
-                () => Column(
+            () => Column(
               children: controller.historyList
                   .map(
                     (e) => Container(
-                  margin: const EdgeInsets.symmetric(
-                      vertical: 10, horizontal: 10),
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 10, horizontal: 10),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Image.asset(
-                        e.system != "user"
-                            ? Assets.assetsRobotics
-                            : Assets.assetsBot,
-                        width: width * 0.05,
-                        height: width * 0.05,
+                      margin: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      SizedBox(width: width * 0.04),
-                      Flexible(child: Text(e.message)),
-                    ],
-                  ),
-                ),
-              )
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            e.system != "user"
+                                ? Assets.assetsRobotics
+                                : Assets.assetsBot,
+                            width: width * 0.05,
+                            height: width * 0.05,
+                          ),
+                          SizedBox(width: width * 0.04),
+                          Flexible(child: Text(e.message)),
+                        ],
+                      ),
+                    ),
+                  )
                   .toList(),
             ),
           ),
