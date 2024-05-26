@@ -1,11 +1,9 @@
-import 'package:bard_flutter/screen/main_screen.dart';
 import 'package:bard_flutter/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(const MyApp());
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

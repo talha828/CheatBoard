@@ -4,5 +4,7 @@ class Assets {
 
   static const String assetsBot = 'assets/bot.png';
   static const String assetsRobotics = 'assets/robotics.png';
+  static const String assetsCube = 'assets/cube.png';
+  static const String assetsDeveloper = 'assets/developer.png';
 
 }

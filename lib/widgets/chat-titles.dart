@@ -37,7 +37,7 @@ class ChatTiles extends StatelessWidget {
                           Image.asset(
                             e.system != "user"
                                 ? Assets.assetsRobotics
-                                : Assets.assetsBot,
+                                : Assets.assetsDeveloper,
                             width: width * 0.05,
                             height: width * 0.05,
                           ),

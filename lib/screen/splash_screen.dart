@@ -15,7 +15,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    Timer(const Duration(seconds: 2), () => Get.to(const MainScreen()));
+    Timer(const Duration(milliseconds: 500), () => Get.to(const MainScreen()));
     super.initState();
   }
 
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
       child: Scaffold(
         body: Center(
           child: Image.asset(
-            Assets.assetsBot,
+            Assets.assetsCube,
             scale: 4,
           ),
         ),

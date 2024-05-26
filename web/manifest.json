@@ -1,35 +1,25 @@
 {
-    "name": "bard_flutter",
-    "short_name": "bard_flutter",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
-    "icons": [
-        {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
-        }
-    ]
+    "name": "CheatBoard",
+    "short_name": "CheatBoard",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Elevate your quiz-solving experience with QuizMaster! This Flutter-based Chrome extension helps you tackle quizzes anonymously without leaving any history or requiring a login. Featuring a fast and responsive chatbot, CheatBoard provides quick and accurate answers to all your quiz questions. Perfect for students, trivia enthusiasts, and anyone looking for instant knowledge assistance.",
+    "icons": {
+        "192": "icons/Icon-192.png",
+        "512": "icons/Icon-512.png"
+    },
+    "background": {
+        "service_worker": "flutter_service_worker.js"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/Icon-192.png"
+    }
 }
+
