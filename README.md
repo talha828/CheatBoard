@@ -1,33 +1,46 @@
-# ByteBoard App
 
-ByteBoard is a Flutter application designed to streamline your document analysis experience through its powerful AI chat feature. This app leverages the Bard API to analyze PDFs and provide insightful answers to your questions.
+![CheatBoard](https://github.com/talha828/Custom-Chat-Bot/assets/61588132/e94cfbe3-c6dd-4ec6-85ae-d014563a0880)
 
-## Features
+# 📚 CheatBoard 📚
 
-1. **AI Chat:** ByteBoard incorporates advanced AI capabilities to facilitate dynamic and interactive conversations. Simply ask questions related to your PDF documents, and ByteBoard will provide accurate analyses and answers.
+Welcome to **CheatBoard**, a fun and easy-to-use Chrome extension built using Flutter and an AI chatbot! 🎉 This extension helps you solve quiz questions quickly and anonymously without the need for login or signup. It also ensures your privacy by not saving any history. Perfect for students who want to get quick answers without any hassle! 🕵️‍♂️
 
-2. **PDF Analysis:** The app seamlessly integrates with the Bard API to analyze PDF files. Gain valuable insights and information from your documents with ease.
+## ✨ Features ✨
 
-## How to Collaborate
+- 🤖 **AI Chatbot**: Get instant answers to your questions with a simple click.
+- 🔒 **No Login Required**: Use the extension without the hassle of creating an account.
+- 🕶️ **Privacy Assured**: No history is saved, ensuring complete anonymity.
+- 🖱️ **Easy to Use**: Just click the "Get Answer" button to grab your recently copied question and get an answer in seconds.
 
-We welcome collaboration to enhance ByteBoard and make it even more powerful. Here's how you can contribute:
+## 🚀 How to Use 🚀
 
-1. **Bug Reports:** If you encounter any issues or unexpected behavior, please submit a detailed bug report in the [Issues](link-to-issues) section. Include information about your device, OS version, and steps to reproduce the problem.
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/your-username/CheatBoard.git
+    ```
 
-2. **Feature Requests:** Suggest new features or improvements that you believe would enhance the app. We value your input and are open to making ByteBoard more versatile.
+2. **Add API Key**:
+    - Navigate to the utility page in the project.
+    - Add your API key.
 
-3. **Pull Requests:** If you have coding skills and want to contribute directly, fork the repository, make your changes, and submit a pull request. Ensure that your code follows the project's guidelines.
+3. **Build the Project**:
+    - Run the following command in your terminal:
+    ```sh
+    flutter build web --web-renderer html --csp
+    ```
 
-## Getting Started
+4. **Install the Extension**:
+    - Locate the `web` folder inside the `build` directory.
+    - Upload this folder as your Chrome extension.
 
-To get started with ByteBoard, follow these steps:
+## 🤝 Contributing 🤝
 
-1. Clone the repository: `git clone https://github.com/your-username/ByteBoard.git`
-2. Install dependencies: `flutter pub get`
-3. Run the app: `flutter run`
+This is a fun project, and we'd love to have you collaborate with us! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request. Let's make CheatBoard even more awesome together! 🎨✨
 
-## Community Support
+## 🎉 Enjoy the Project! 🎉
 
-Join our community to discuss ideas, share experiences, and get assistance. Visit [Community Forum](link-to-forum).
+Remember, CheatBoard is all about having fun and making your quiz-solving experience easier. So, relax, enjoy, and let the AI chatbot do the work! 😄
 
-Let's collaborate and make ByteBoard a robust tool for PDF analysis and AI-driven conversations!
+---
+
+Feel free to use and modify this project according to your needs. Happy quizzing! 🧠💡
